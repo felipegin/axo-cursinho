@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body{
+	background-color: rgb(240,160,063);
+}
+p{
+	color: red;
+}
+nav#menu{
+	display: block;
+}
+nav#menu ul{
+	position: absolute;
+	list-style: none;
+	top: 0px;
+	right: 0px;
+}
+nav#menu li{
+	display: inline-block;
+	transition: background-color 1s;
+}
+nav#menu li:hover{
+	background-color: rgb(216,114,000);
+}
